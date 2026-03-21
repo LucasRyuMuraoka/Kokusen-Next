@@ -36,7 +36,6 @@ export function CharacterList({ charactersPromise, onEdit, onDelete }) {
   );
 }
 
-// Helper para cores dos Ranks
 function getRankStyle(rank) {
   switch(rank) {
     case 'SPECIAL_GRADE': return 'bg-red-100 text-red-700 border border-red-200';
